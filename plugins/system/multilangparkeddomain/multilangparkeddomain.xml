@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>MultiLanguage Parked Domain</name>
+	<version>1.0.0</version>
+	<modified>16 August 2013</modified>
+	<creationDate>16 August 2013</creationDate>
+	<author>Web-expert.gr- Stergios Zgouletas</author>
+	<authorEmail>info@web-expert.gr</authorEmail>
+	<authorUrl>http://www.web-expert.gr/</authorUrl>
+	<copyright>(C) 2011 Web-expert.gr - Joomla Extensions - Hosting!</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<description>MultiLanguage Parked Domain Switcher</description>
+	<files>
+		<filename plugin="multilangparkeddomain">multilangparkeddomain.php</filename>
+		<filename>index.html</filename>
+		<folder>fields</folder>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/multilangparkeddomain/fields">
+			<fieldset name="Basic">
+				<field type="seperator1" default="Find in URL" />
+				<field name="finders" type="textarea" default="mydomain.com/el" cols="30" rows="6" label="Find Parts" description="one per row"/>
+				<field type="seperator1" default="Replace with in URL" />
+				<field name="replacers" type="textarea" default="mydomain.gr" cols="30" rows="6" label="Replace Parts" description="one per row"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

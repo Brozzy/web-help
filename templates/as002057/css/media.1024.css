@@ -1,0 +1,41 @@
+
+/***************************************************************************************/
+/*
+/*		Author: AS Designing
+/*		Author URI: http://www.asdesigning.com
+/*		Theme URI: http://www.astemplates.com
+/*		
+/*		Note: Designed for Desktops
+/*
+/***************************************************************************************/
+
+@media (min-width: 981px) and (max-width: 1199px)
+{
+	
+	#slider-row #camera-slideshow	
+	{
+		min-height: inherit;
+	}
+		
+	#slider-row .camera_caption a.readmore
+	{
+		right: 60px;
+	}
+	
+	#featured-row .mod-newsflash p 
+	{
+    	float: none;
+    	overflow: hidden;
+	}
+
+	.moduletable.social ul li.separator 
+	{
+		display: block;
+	}
+		
+	.mod-newsflash-adv__links .item_content ul li a
+	{
+		font-size: 12px;
+	}
+	
+}

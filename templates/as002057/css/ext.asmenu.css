@@ -1,0 +1,129 @@
+
+/**************************************************************************************/
+/*
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+#as-menu 
+{
+    background-color: transparent;
+	background-image: none;
+	min-height: 20px;
+}
+
+#as-menu ul.as-menu > li a,
+#as-menu ul.as-menu > li > span
+{
+	margin: 0px;
+	padding: 0px 10px;
+	display: block;
+	font-weight: normal;
+	line-height: 20px;
+	text-transform: lowercase;
+	letter-spacing: 1px;
+	color: #ffffff;	
+}
+
+#as-menu ul.as-menu > li a:hover
+{
+	background: none !important;	
+}
+
+#as-menu ul.as-menu > li,
+#as-menu ul.as-menu > li:hover
+{
+	width: auto;
+	margin: 0 3px;
+	padding: 50px 12px;
+	background: none;
+	border-top: 2px solid transparent;		
+}
+
+#as-menu ul.as-menu > li.lastItem
+{
+	border-right: none !important;
+}
+
+#as-menu ul.as-menu > li:first-child
+{
+	margin-left: 0px;	
+}
+
+#as-menu ul.as-menu > li.deeper > a:after
+{
+	top: -2px;	
+}
+
+#as-menu ul.as-menu > li.active > a,
+#as-menu ul.as-menu > li.current > a,
+#as-menu ul.as-menu > li.asHover > a,
+#as-menu ul.as-menu > li:hover > a,
+#as-menu ul.as-menu > li > a:hover,
+#as-menu ul.as-menu > li > span:hover
+{
+}
+
+#as-menu ul.as-menu > li > a
+{
+	color: #333333 !important;	
+}
+
+#as-menu ul.as-menu > li.active,
+#as-menu ul.as-menu > li.current,
+#as-menu ul.as-menu > li:hover
+{
+	border-top: 2px solid #D96C40;	
+}
+
+#as-menu ul.as-menu > li.active a,
+#as-menu ul.as-menu > li.current a,
+#as-menu ul.as-menu > li:hover a
+{
+	color: #08aaf1 !important;
+}
+
+#as-menu ul.as-menu li:hover ul,
+#as-menu ul.as-menu li.asHover ul
+{
+	left: 0;
+	top: 120px;
+	z-index: 100;
+}
+
+#as-menu ul.as-menu ul
+{
+	background-color: #FFFFFF;
+	background-image: -moz-linear-gradient(top, #ffffff, #eaeaea);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#eaeaea));
+	background-image: -webkit-linear-gradient(top, #ffffff, #eaeaea);
+	background-image: -o-linear-gradient(top, #ffffff, #eaeaea);
+	background-image: linear-gradient(to bottom, #ffffff, #eaeaea);
+	border-top: 2px solid #D96C40;
+}
+
+#as-menu ul.as-menu ul li a,
+#as-menu ul.as-menu ul li span
+{
+	color: #333333 !important;
+	background-image: none !important;
+	margin: 0px;
+	text-transform: lowercase;
+}
+
+#as-menu ul.as-menu ul li a:hover,
+#as-menu ul.as-menu ul li span:hover,
+#as-menu ul.as-menu ul li.active > a,
+#as-menu ul.as-menu ul li.asHover > a,
+#as-menu ul.as-menu ul li.active > span,
+#as-menu ul.as-menu ul li.asHover > span
+{
+	color: #333333 !important;
+}
+
+#as-menu ul.as-menu ul ul
+{
+	left: 193px !important;
+}
